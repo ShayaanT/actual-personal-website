@@ -1,0 +1,200 @@
+html {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: auto;
+    background-color: lightskyblue;
+}
+
+header {
+    margin: 0;
+    left: -0.03em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: hsl(198, 40%, 35%);
+}
+
+.container {
+    width: auto;
+    margin: auto;
+}
+
+.subcontainer {
+    width: 85%;
+    margin: auto;
+}
+
+@media (max-width: 1600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.navbar {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-left: 40em;
+}
+
+.hamburger {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    top: 0.75rem;
+    right: 1rem;
+
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    background-color: black;
+}
+
+@media (max-width: 800px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .nav-menu a {
+        text-align: center;
+    }
+
+    .nav-menu a {
+        padding: 0.5rem;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+
+
+
+
+
+}
+
+
+
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+li a:hover {
+    background-color: lightskyblue;
+}
+
+
+
+
+.active {
+    pointer-events: none;
+    cursor: default;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 2em;
+    font-size: 7rem;
+}
+.logo
+{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    margin-left: -2em;
+}
+.projectbtn1
+{
+    position: absolute;
+    margin-top: 33em;
+    margin-left: 17em;
+    padding: 1em;
+    background-color: hsl(198, 40%, 35%);   
+    cursor: pointer;
+    border: 2px solid hsl(198, 40%, 35%);
+    border-radius: 10px;
+
+}
+.projectbtn1:hover
+{
+    background-color: lightskyblue;
+}
+.projectbtn2 {
+    position: absolute;
+    margin-top: 33em;
+    margin-left: 33em;
+    padding: 1em;
+    background-color: hsl(198, 40%, 35%);
+    cursor: pointer;
+    border: 2px solid hsl(198, 40%, 35%);
+    border-radius: 10px;
+
+}
+
+.projectbtn2:hover {
+    background-color: lightskyblue;
+}
+.projectbtn3 {
+    position: absolute;
+    margin-top: 33em;
+    margin-left: 52em;
+    padding: 1em;
+    background-color: hsl(198, 40%, 35%);
+    cursor: pointer;
+    border: 2px solid hsl(198, 40%, 35%);
+    border-radius: 10px;
+
+}
+
+.projectbtn3:hover {
+    background-color: lightskyblue;
+}
+.racinggameimg
+{
+    position: absolute;
+    margin-top: 80em;
+    margin-left: 20em;
+    height: 30em;
+}
+
